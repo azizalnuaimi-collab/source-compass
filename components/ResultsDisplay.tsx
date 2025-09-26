@@ -1,7 +1,7 @@
 import React from 'react';
-import type { DatabaseRecommendation } from '../types';
-import { DatabaseCard } from './DatabaseCard';
-import { LoadingSpinner } from './LoadingSpinner';
+import type { DatabaseRecommendation } from '../types.ts';
+import { DatabaseCard } from './DatabaseCard.tsx';
+import { LoadingSpinner } from './LoadingSpinner.tsx';
 
 interface ResultsDisplayProps {
   isLoading: boolean;

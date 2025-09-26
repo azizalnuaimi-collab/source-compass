@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import type { DatabaseRecommendation } from '../types';
+import type { DatabaseRecommendation } from '../types.ts';
 
 interface DatabaseCardProps {
   recommendation: DatabaseRecommendation;

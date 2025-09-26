@@ -1,11 +1,11 @@
 import React, { useState, useCallback } from 'react';
-import { Header } from './components/Header';
-import { CitationInput } from './components/CitationInput';
-import { ResultsDisplay } from './components/ResultsDisplay';
-import { Footer } from './components/Footer';
-import { ErrorDisplay } from './components/ErrorDisplay';
-import type { DatabaseRecommendation } from './types';
-import { findDatabasesForCitation } from './services/geminiService';
+import { Header } from './components/Header.tsx';
+import { CitationInput } from './components/CitationInput.tsx';
+import { ResultsDisplay } from './components/ResultsDisplay.tsx';
+import { Footer } from './components/Footer.tsx';
+import { ErrorDisplay } from './components/ErrorDisplay.tsx';
+import type { DatabaseRecommendation } from './types.ts';
+import { findDatabasesForCitation } from './services/geminiService.ts';
 
 const App: React.FC = () => {
   const [citation, setCitation] = useState<string>('');

@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
-import { DATABASES } from "../constants";
-import { SEARCH_WORKFLOW_CONFIG } from "../search.config";
-import type { DatabaseRecommendation } from "../types";
+import { DATABASES } from "../constants.ts";
+import { SEARCH_WORKFLOW_CONFIG } from "../search.config.ts";
+import type { DatabaseRecommendation } from "../types.ts";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
 

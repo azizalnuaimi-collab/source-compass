@@ -1,4 +1,4 @@
-import type { SearchWorkflowConfig } from './types';
+import type { SearchWorkflowConfig } from './types.ts';
 
 export const SEARCH_WORKFLOW_CONFIG: SearchWorkflowConfig = {
   "search_config": {

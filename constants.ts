@@ -1,4 +1,4 @@
-import type { Database } from './types';
+import type { Database } from './types.ts';
 
 export const DATABASES: Database[] = [
   {
