@@ -3,7 +3,7 @@ import { DATABASES } from "../constants.ts";
 import { SEARCH_WORKFLOW_CONFIG } from "../search.config.ts";
 import type { DatabaseRecommendation } from "../types.ts";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+const ai = new GoogleGenAI({ apiKey: "AIzaSyCUDmI5SrcDgYNHIVSQu6BZz3Ad_yp4cuE" });
 
 const responseSchema = {
   type: Type.ARRAY,
